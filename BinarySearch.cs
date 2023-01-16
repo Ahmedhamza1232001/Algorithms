@@ -9,7 +9,7 @@
             int High = myArray.Length - 1;
             int Mid; //what lenght do we need
 
-            while (Low < High)
+            while (Low <= High)
             {
                 Mid = (Low + High) / 2;
 
